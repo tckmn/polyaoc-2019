@@ -1,0 +1,2 @@
+a = Tally /@ Select[IntegerDigits[Range @@ ToExpression@StringSplit[Import["input"], "-"]], OrderedQ];
+Count[a, {___, {_, #}, ___}] & /@ {Except@1, 2}
