@@ -1,0 +1,10 @@
+#!/usr/bin/env dc
+[!bash -c 'dc -e0 -fdc/02.dc < <(sed "s/,/ /g" input)'
+q]saz0=asa
+
+[d1+;a;ar d2+;a;a3R+r d3+;a3Rr:a 4+]sa
+[d1+;a;ar d2+;a;a3R*r d3+;a3Rr:a 4+]sm
+[0;apq]sq
+?[z1-:az0<r]dsrx
+12 1:a 2 2:a
+0[d;a1=a d;a2=m d;a99=q llx]dslx
