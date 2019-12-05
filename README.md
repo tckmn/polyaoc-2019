@@ -4,6 +4,7 @@
 | 02 |            |             | [✓][02c] | [1][02dc]  |           |            |             |           | [✓][02rb] |            |
 | 03 |            |             |          |            |           |            |             |           | [✓][03rb] |            |
 | 04 |            | [✓][04bash] | [✓][04c] |            | [✓][04hs] | [✓][04js]  | [✓][04mma]  |           | [✓][04rb] | [✓][04vim] |
+| 05 |            |             |          |            |           |            |             |           | [✓][05rb] |            |
 
 [01asm]:  https://github.com/tckmn/polyaoc-2019/tree/master/01/asm
 [01dc]:   https://github.com/tckmn/polyaoc-2019/tree/master/01/dc
@@ -21,3 +22,4 @@
 [04mma]:  https://github.com/tckmn/polyaoc-2019/tree/master/04/mma
 [04rb]:   https://github.com/tckmn/polyaoc-2019/tree/master/04/rb
 [04vim]:  https://github.com/tckmn/polyaoc-2019/tree/master/04/vim
+[05rb]:   https://github.com/tckmn/polyaoc-2019/tree/master/05/rb
