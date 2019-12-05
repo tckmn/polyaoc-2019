@@ -1,0 +1,31 @@
+#!/usr/bin/env dc
+[
+!bash -c 'echo part 1:; dc -e1SI0 -fdc/05.dc < <(sed "s/,/ /g; s/-/_/g" input)'
+!bash -c 'echo part 2:; dc -e5SI0 -fdc/05.dc < <(sed "s/,/ /g; s/-/_/g" input)'
+q]stz0=tst
+
+# instructions
+[4+ lxly+lZ:a]1:i
+[4+ lxly*lZ:a]2:i
+[2+ LIlX:a]3:i
+[2+ lxSO lo1+so]4:i
+[3+ lx0!=p]5:i         [stly]sp
+[3+ lx0=p]6:i
+[4+ 0lZ:a lylx<b]7:i   [1lZ:a]sb
+[4+ 0lZ:a lylx=b]8:i
+[st [LOlo1-dso0<q]dsqx [pstz0<q]dsqx q]99:i
+
+# read input into array a
+?[z1-:az0<r]dsrx
+
+# helper function for storing params
+[lt;ast]sh
+
+0so0[
+# store params 1,2,3 in x,y,z; immediates in X,Y,Z
+d1+;adsXstd;a100/  10%0=hltsx
+d2+;adsYstd;a1000/ 10%0=hltsy
+d3+;adsZstd;a10000/10%0=hltsz
+# run instruction
+d;a100%;ix
+llx]dslx

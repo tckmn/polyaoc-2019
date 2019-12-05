@@ -1,5 +1,5 @@
 #!/usr/bin/env dc
-[!bash -c 'dc -e0 -fdc/02.dc < <(sed "s/,/ /g" input)'
+[!bash -c 'dc -e0 -fdc/02_1.dc < <(sed "s/,/ /g" input)'
 q]saz0=asa
 
 [d1+;a;ar d2+;a;a3R+r d3+;a3Rr:a 4+]sa
