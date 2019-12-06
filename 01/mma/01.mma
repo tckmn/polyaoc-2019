@@ -1,0 +1,8 @@
+a = ReadList["input"];
+
+Print@Tr[a~Quotient~3 - 2];
+Print@Tr[If[# >= 9, # + #0[#~Quotient~3 - 2], #] & /@ a - a];
+
+(* alternative part 2:
+Print@Total[NestWhileList[#~Quotient~3 - 2 &, #, Positive][[2 ;; -2]] & /@ a, 2]
+*)
