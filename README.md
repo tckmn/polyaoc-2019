@@ -7,7 +7,7 @@
 | 05 |            |             |          | [✓][05dc]  |           |           |           |             |           | [✓][05rb] |            |
 | 06 |            |             |          |            |           |           |           |             |           | [✓][06rb] |            |
 | 07 |            |             |          |            |           |           |           |             |           | [✓][07rb] |            |
-| 08 |            |             |          |            |           |           |           |             |           | [✓][08rb] |            |
+| 08 |            |             |          |            | [✓][08hs] |           |           |             |           | [✓][08rb] |            |
 | 09 |            |             |          |            |           |           |           |             |           | [✓][09rb] |            |
 | 10 |            |             |          |            |           |           |           |             |           | [✓][10rb] |            |
 | 11 |            |             |          |            |           |           |           |             |           | [✓][11rb] |            |
@@ -34,6 +34,7 @@
 [05rb]:   https://github.com/tckmn/polyaoc-2019/tree/master/05/rb
 [06rb]:   https://github.com/tckmn/polyaoc-2019/tree/master/06/rb
 [07rb]:   https://github.com/tckmn/polyaoc-2019/tree/master/07/rb
+[08hs]:   https://github.com/tckmn/polyaoc-2019/tree/master/08/hs
 [08rb]:   https://github.com/tckmn/polyaoc-2019/tree/master/08/rb
 [09rb]:   https://github.com/tckmn/polyaoc-2019/tree/master/09/rb
 [10rb]:   https://github.com/tckmn/polyaoc-2019/tree/master/10/rb
