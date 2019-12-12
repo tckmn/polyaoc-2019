@@ -11,6 +11,7 @@
 | 09 |            |             |          |            |           |           |           |             |           | [✓][09rb] |            |
 | 10 |            |             |          |            |           |           |           |             |           | [✓][10rb] |            |
 | 11 |            |             |          |            |           |           |           |             |           | [✓][11rb] |            |
+| 12 |            |             |          |            |           |           |           |             |           | [✓][12rb] |            |
 
 [01asm]:  https://github.com/tckmn/polyaoc-2019/tree/master/01/asm
 [01dc]:   https://github.com/tckmn/polyaoc-2019/tree/master/01/dc
@@ -39,3 +40,4 @@
 [09rb]:   https://github.com/tckmn/polyaoc-2019/tree/master/09/rb
 [10rb]:   https://github.com/tckmn/polyaoc-2019/tree/master/10/rb
 [11rb]:   https://github.com/tckmn/polyaoc-2019/tree/master/11/rb
+[12rb]:   https://github.com/tckmn/polyaoc-2019/tree/master/12/rb
