@@ -1,3 +1,11 @@
+all years:
+[polyaoc-2019](https://github.com/tckmn/polyaoc-2019),
+[polyaoc-2020](https://github.com/tckmn/polyaoc-2020),
+[polyaoc-2021](https://github.com/tckmn/polyaoc-2021),
+[polyaoc-2023](https://github.com/tckmn/polyaoc-2023)
+
+(these languages are, in order: x64 assembly, bash, C, dc, Haskell, JavaScript, Julia, Mathematica, Python, Ruby, vim)
+
 |    | asm        | bash        | c        | dc         | haskell   | js        | julia     | mathematica | python    | ruby      | vim        |
 | -- | ---        | ----        | -        | --         | -------   | --        | -----     | ----------- | ------    | ----      | ---        |
 | 01 | [✓][01asm] |             |          | [✓][01dc]  | [✓][01hs] |           |           | [✓][01mma]  | [✓][01py] | [✓][01rb] |            |
@@ -12,6 +20,15 @@
 | 10 |            |             |          |            |           |           |           |             |           | [✓][10rb] |            |
 | 11 |            |             |          |            |           |           |           |             |           | [✓][11rb] |            |
 | 12 |            |             |          |            |           |           |           |             |           | [✓][12rb] |            |
+
+how to run the programs:
+
+ * for mathematica, paste into a notebook with the appropriate working directory
+ * for vim, run `vim -u NONE '+so vim/##.vim'`
+ * for asm and c, compile with `gcc`, then run the resulting executable
+ * for everything else, the files are executable; just run `lang/##.ext`
+
+note that everything expects to be run from the directory containing `input`
 
 [01asm]:  https://github.com/tckmn/polyaoc-2019/tree/master/01/asm
 [01dc]:   https://github.com/tckmn/polyaoc-2019/tree/master/01/dc
